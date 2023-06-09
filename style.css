@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header,
@@ -99,6 +100,12 @@ button,
     align-items: center;
 }
 
+.section_header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .information {
     display: flex;
     gap: 48px;
@@ -127,18 +134,60 @@ button,
     text-align: center;
 }
 
-.section_header {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-}
 
 .section_two {
     background-color: #E5E7EB;
+    padding: 64px 256px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.credit {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: end;
+}
+
+.section_three {
+    margin: 96px 200px;
+    padding: 56px 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.left_side > .subtext {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.section_three > button {
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    width: 128px;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    color: #E5E7EB;
 }
